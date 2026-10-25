@@ -1,2 +1,9 @@
 node_modules/
 package-lock.json
+
+# secrets and local data
+config.json
+settings.json
+.env
+*.sqlite
+logs.json

@@ -394,21 +394,6 @@ bot.on('message', (message) => {
     }
 })
 bot.on('message', (message) => {
-    if (message.content.startsWith("**NSFW")) {
-        let mtrade = message.author.username;
-        message.channel.send(
-            new RichEmbed()
-            .setColor(0xffffff)
-            .setTitle(`NSFW `)
-            .setDescription("• `nekonsfw`\n • `photocum`\n • `photopussy`\n • `pussy`\n • `pwankg`\n • `solo`\n • `solog`\n • `tits`\n • `yuri`\n • `hentai`\n • `bj`\n • `blowjob`\n • `boobs`\n • `classic`\n • `cum`\n • `ero`\n • `erofeet`\n • `erok`\n • `erokemo`\n • `eron`\n • `feetg`\n • `fox_girl`\n • `futanari`\n • `gasm`\n • `hentaigif`\n • `holoero`\n • `hololewd`\n • `keta`\n • `lewd`\n • `lewdkemo`\n • `les`               ")
-
-
-
-
-        )
-    }
-})
-bot.on('message', (message) => {
     if (message.content.startsWith("**Utility")) {
         let mtrade = message.author.username;
         message.channel.send(
@@ -429,7 +414,7 @@ bot.on('message', (message) => {
             new RichEmbed()
             .setColor(0xffffff)
             .setTitle(`Fun  `)
-            .setDescription("•  `atableflip`\n•  `cap`\n•  `embed`\n•  `emote`\n•  `say`\n•  `ddos`\n•  `sex`\n•  `ship`\n•  `random`\n•  `randomcolor`\n•  `uclaim`\n•  `gesg`")
+            .setDescription("•  `atableflip`\n•  `cap`\n•  `embed`\n•  `emote`\n•  `say`\n•  `sex`\n•  `ship`\n•  `random`\n•  `randomcolor`\n•  `uclaim`\n•  `gesg`")
 
 
 
